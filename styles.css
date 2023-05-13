@@ -1,3 +1,83 @@
-h1 {
-    color: powderblue;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(170,170,170);
+}
+
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.contact-info a {
+    color: rgb(65%, 33.3%, 0%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#header {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background-color: #333;
+}
+
+
+h3 #link {
+    float: right;
+    font-size: 0.8em;
+    color: black;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+
+li {
+    padding: 10px;
+    line-height: 22px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: rgb(65%, 33.3%, 0%);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    margin-bottom: -400px;
+    padding-bottom: 400px;
+    
+
+
+}
+
+#education {
+    padding: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section p {
+    line-height: 1.6;
 }

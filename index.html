@@ -1,15 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>webumeV1</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" async></script>
 </head>
 <body>
-    <h1>Gotta love powder-blue</h1>
-    
+    <header id="header">
+        <div class="container">
+            <h1>Teyo Tobias Turrubiates</h1>
+            <div class="contact-info">
+                <p><a href="mailto: teyotobias@utexas.edu" id="contLinks">Email</a></p>
+                <p><a href="https://maps.apple.com/?address=2618%20Westwood%20Dr,%20Harlingen,%20TX%20%2078552,%20United%20States&ll=26.167641,-97.728192&q=2618%20Westwood%20Dr">Address</a></p>
+                <p><a href="https://github.com/teyotobias" target="blank">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/teyo-turrubiates-537302242/" target="blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="main">
+            <section id="mainSec">
+                <h2>Work Experience</h2>
+                <h3>Information Technology Intern at Mercy Kids Rehab</h3>
+                <p>Summer 2022</p>
+                <ul>
+                    <li>Aided in directing the effective delivery of networks, development, and disaster recovery systems with 
+                        external IT vendors and service providers</li>
+                    <li>Assisted in maintaining company hardware and software programs</li>
+                    <li>Analyzed IT infrastructure and systems performance to assess operating costs, 
+                        productivity levels, upgrade requirements, and other needs</li>
+                    <li>Implemented company-wide technological updates and held a session to teach employees new features</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Personal Projects</h2>
+                <h3>Space Invaders Game <span><a href="#" id="link" target="blank">Space Invaders</a></span></h3>
+                <p>Recreation of the old game "Space Invaders" for playability on a microcontroller. Created
+                    using C and Assembly.
+                </p>
+                <ul>
+                    <li>Implements a variety of sprites/images created in Paint and displayed on LCD interface</li>
+                    <li>Sound creation made available through generation of a DAC</li>
+                    <li>Use of hardware interrupts for proper I/O synchronization (buttons, slide pots, joysticks)</li>
+                    <li>Modular design: each module includes I/O driver and main program to test</li>
+                    <li>Utilizes queues, multidimensional arrays, stacks, hash tables, and a variety of trees for implementation</li>
+                </ul>
+                <h3>MasterMind Game<span><a href="https://github.com/teyotobias/masterMindGame" target="blank"id="link">MasterMind</a></span></h3>
+                <p>The old game "MasterMind" remastered into a text Version.</p>
+                <ul>
+                    <li>Game room application designed using OOP principles</li>
+                    <li>Network capabilities via Java socket programming</li>
+                    <li>Utilizes a single server to support multiple clients</li>
+                    <li>Synchronization of threads using a monitor object to avoid race conditions and deadlocks</li>
+                </ul>
+            </section>
+        </div>
+        <div id="sidebar">
+            <section>
+                <h2>Education</h2>
+                <div id="education">
+                    <p>University of Texas at Austin</p>
+                    <p>Bachelor of Science in Software Engineering and Design</p>
+                    <p>GPA: 3.5</p>
+                    <p>2020-2024</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>Lanuages: C, C++, Python, Java, JavaScript, Assembly, Bash, HTML, CSS, SQL, NoSQL </li>
+                    <li>Applications: Visual Studio Code, CLion, Intellij, Android Studio, MongoDB, Pycharm, and all Microsoft Apps</li>
+                    <li>Frameworks: React.js, Node.js</li>
+                    <li>Conversational in Spanish</li>
+                    <li>Acquainted with soldering and circuitry</li>
+                </ul>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
