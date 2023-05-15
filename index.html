@@ -12,21 +12,31 @@
 <body>
     <header id="header">
         <div class="container">
-            <h1>Teyo Tobias Turrubiates</h1>
+            <div class="header-content">
+                <img class="logo1" src="https://www.dropbox.com/s/v21xr4vws9dwa5a/Texas_Longhorns_logo_PNG5.png?raw=1" alt="Longhorn Logo"/>
+                <img id="profile-pic" src="https://www.dropbox.com/s/9ykeomzb8ua4739/IMG_1896.jpg?raw=1" alt="Personal Photo"/>
+                <img class="logo2" src="https://www.dropbox.com/s/v21xr4vws9dwa5a/Texas_Longhorns_logo_PNG5.png?raw=1" alt="Longhorn Logo"/>
+            </div>
+            <h1 style="padding:5px 0px 20px 0px">Teyo Tobias Turrubiates</h1>
             <div class="contact-info">
-                <p><a href="mailto: teyotobias@utexas.edu" id="contLinks">Email</a></p>
-                <p><a href="https://maps.apple.com/?address=2618%20Westwood%20Dr,%20Harlingen,%20TX%20%2078552,%20United%20States&ll=26.167641,-97.728192&q=2618%20Westwood%20Dr">Address</a></p>
-                <p><a href="https://github.com/teyotobias" target="blank">GitHub</a></p>
-                <p><a href="https://www.linkedin.com/in/teyo-turrubiates-537302242/" target="blank">LinkedIn</a></p>
+                <nav>
+                    <ul>
+                        <li id="link-Desc">Email<a href="mailto: teyotobias@utexas.edu" id="contLinks"><img src="https://www.dropbox.com/s/tsm0ocqozi8iajr/pngwing.com.png?raw=1"/></a></li>
+                        <li id="link-Desc">Address<a href="https://maps.apple.com/?address=2618%20Westwood%20Dr,%20Harlingen,%20TX%20%2078552,%20United%20States&ll=26.167641,-97.728192&q=2618%20Westwood%20Dr"><img src="https://www.dropbox.com/s/y11g18itwq39f1w/kisspng-apple-maps-iphone-google-maps-5ae1d34e7e21a2.6619611515247491345167.png?raw=1"/></a></li>
+                        <li id="link-Desc">Github<a href="https://github.com/teyotobias" target="blank"><img src="https://www.dropbox.com/s/ggc5g14luqxtsen/github-mark.png?raw=1"/></a></li>
+                        <li id="link-Desc">LinkedIn<a href="https://www.linkedin.com/in/teyo-turrubiates-537302242/" target="blank"><img src="https://www.dropbox.com/s/061lnf0yufvj22p/Linkedin-logo-on-transparent-Background-PNG-.png?raw=1"/></a></li>
+                        <li id="link-Desc">Instagram<a href="https://www.instagram.com/teyotobias/" target="blank"><img src="https://www.dropbox.com/s/4m3giu8fvlukbzx/instaLogo.png?raw=1"/></a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
-    <div class="container">
+    <div class="container4">
         <div id="main">
             <section id="mainSec">
-                <h2>Work Experience</h2>
-                <h3>Information Technology Intern at Mercy Kids Rehab</h3>
+                <h2 style="color: black; text-transform:uppercase;">Work Experience</h2>
+                <h3 style="font-style:italic">Information Technology Intern at Mercy Kids Rehab</h3>
                 <p>Summer 2022</p>
                 <ul>
                     <li>Aided in directing the effective delivery of networks, development, and disaster recovery systems with 
@@ -38,8 +48,8 @@
                 </ul>
             </section>
             <section>
-                <h2>Personal Projects</h2>
-                <h3>Space Invaders Game <span><a href="#" id="link" target="blank">Space Invaders</a></span></h3>
+                <h2 style="color: black; text-transform:uppercase;"" >Personal Projects</h2>
+                <h3 style="font-style:italic">Space Invaders Game <span><a href="#" id="link" target="blank">Space Invaders</a></span></h3>
                 <p>Recreation of the old game "Space Invaders" for playability on a microcontroller. Created
                     using C and Assembly.
                 </p>
@@ -50,7 +60,7 @@
                     <li>Modular design: each module includes I/O driver and main program to test</li>
                     <li>Utilizes queues, multidimensional arrays, stacks, hash tables, and a variety of trees for implementation</li>
                 </ul>
-                <h3>MasterMind Game<span><a href="https://github.com/teyotobias/masterMindGame" target="blank"id="link">MasterMind</a></span></h3>
+                <h3 style="font-style:italic">MasterMind Game<span><a href="https://github.com/teyotobias/masterMindGame" target="blank"id="link">MasterMind</a></span></h3>
                 <p>The old game "MasterMind" remastered into a text Version.</p>
                 <ul>
                     <li>Game room application designed using OOP principles</li>
@@ -62,26 +72,66 @@
         </div>
         <div id="sidebar">
             <section>
-                <h2>Education</h2>
+                <h2 style="text-transform:uppercase; color: black">Education</h2>
                 <div id="education">
-                    <p>University of Texas at Austin</p>
+                    <p style="margin-top:0px">University of Texas at Austin</p>
                     <p>Bachelor of Science in Software Engineering and Design</p>
                     <p>GPA: 3.5</p>
                     <p>2020-2024</p>
                 </div>
             </section>
-
             <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li>Lanuages: C, C++, Python, Java, JavaScript, Assembly, Bash, HTML, CSS, SQL, NoSQL </li>
-                    <li>Applications: Visual Studio Code, CLion, Intellij, Android Studio, MongoDB, Pycharm, and all Microsoft Apps</li>
-                    <li>Frameworks: React.js, Node.js</li>
-                    <li>Conversational in Spanish</li>
-                    <li>Acquainted with soldering and circuitry</li>
+                <h2 style="text-transform:uppercase; color: black">Skills</h2>
+                <ul id="skills-Sec">
+                    <li id="skills">Lanuages: C, C++, Python, Java, JavaScript, Assembly, Bash, HTML, CSS, SQL, NoSQL </li>
+                    <li id="skills">Applications: Visual Studio Code, CLion, Intellij, Android Studio, MongoDB, Pycharm, and all Microsoft Apps</li>
+                    <li id="skills">Frameworks: React.js, Node.js</li>
+                    <li id="skills">Conversational in Spanish</li>
+                    <li id="skills">Acquainted with soldering and circuitry</li>
                 </ul>
             </section>
         </div>
     </div>
+    <div class="container3">
+        <section id="accomplishments">
+            <h2 style="color:  rgb(170,170,170); text-transform: uppercase; text-align: center;">Extracurriculars/CourseWork</h2>
+            <h3>Relevant Coursework and Content</h3>
+            <ul class="grid-list">
+                <li>Introduction to Electrical Engineering
+                    <span class="tooltip0">Examined the scope and nature of professional activities of electrical engineers, including problem-solving techniques; analysis and design methods; engineering professional ethics; analysis of analog resistive circuits, including Thevenin/Norton equivalents, mesh analysis, and nodal analysis; and operational amplifiers (DC response).</span>
+                </li>
+                <li>Introduction to Computing
+                    <span class="tooltip1">Introduction to computing including bits and operations on bits, number formats, arithmetic and logic operations, and digital logic. Explore the Von Neumann model of processing including memory, arithmetic logic unit, registers, and instruction decoding and execution. Examined structured programming and debugging, machine and assembly language programming, the structure of an assembler, physical input/output through device registers, subroutine call/return; trap instruction, stacks and applications of stacks.</span>
+                </li>
+                <li>Introduction to Embedded Systems
+                    <span class="tooltip0">Explored embedded systems; machine language execution; assembly and C language programming; local variables and subroutines; input/output synchronization; analog to digital conversion and digital to analog conversion; debugging; and interrupts. </span>
+                </li>
+                <li>Software Design and Implementation II
+                    <span class="tooltip1">Explore methods for engineering software with a focus on abstraction; specification, design, implementation, and testing of object-oriented code using a moderndevelopment tool-set for complex systems; design and implementation of object-oriented programs in Java; abstract data types; inheritance; polymorphism; parameterized types and generic programming; the operation and application of commonly used data structures; exception handling and fault tolerance; algorithm analysis; and teamwork models.</span>
+                </li>
+                <li>Software Design and Implementation
+                    <span class="tooltip0">Explored basic problem solving, design and implementation techniques for imperative programming; structured programming in the C/C++ language; programming idioms. Examined software design principles, including modularity, coupling and cohesion; software engineering tools; elementary data structures; and asymptotic analysis. </span>
+                </li>
+                <li>Engineering Design
+                    <span class="tooltip1">Introduction to the engineering design process. Explored the assessment of engineering problems and customer needs, such as acquiring, documenting, and verifying requirements; high-level system design principles; effects of economic, environmental, ethical, safety, and social issues in design; and writing design specifications. </span>
+                </li>
+                <li>Digital Logic Design
+                    <span class="tooltip0">Explored boolean algebra; analysis and design of combinational and sequential logic circuits; state machine design and state tables and graphs; simulation of combinational and sequential circuits; applications to computer design; and hardware description languages (HDLs) and field-programmable gate arrays (FPGAs).</span>
+                </li>
+                <li>Algorithms
+                    <span class="tooltip1">Explored advanced problem-solving methods; algorithm design principles; complexity analysis; the study of the nature, impact, and handling of intractability; and the study of common algorithmic classes and their applications.</span>
+                </li>
+
+            </ul>
+            <h3>Organizations</h3>
+            <ul style="list-style: none">
+                <li id="acc">Active Member: Society of Hispanic Professional Engineers, Institute of Electrical and Electronics Engineers, Epsilon Nu Tau</li>
+            </ul>
+            <h3>Volunteer Work</h3>
+            <ul style="list-style:none">
+                <li id="acc">Ronald McDonald House, Hope for Harvey, Harlingen Humane Society</li>
+            </ul>
+        </section>
+    </div>
 </body>
-</html>
+</html> 

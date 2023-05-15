@@ -2,30 +2,116 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(170,170,170);
+    background-color:rgb(65%, 33.3%, 0%);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 
-
-.contact-info {
+.header-content {
     display: flex;
-    justify-content: space-between;
-    margin: 0px;
+    justify-content: center;
+    align-items: center;
 }
+
+.logo1 {
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    left: 320px;
+}
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: disc;
+    padding-left: 20px;
+    list-style:none;
+  }
+  
+  .grid-list li {
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+.logo2 {
+    width: 75px;
+    height: 50px;
+    position: absolute;
+    right: 320px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    width: 100%;
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid rgb(65%, 33.3%, 0%);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 
 .contact-info a {
-    color: rgb(65%, 33.3%, 0%);
+    color:rgb(65%, 33.3%, 0%);
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
+}
+
+.container3 {
+    width: 100%;
+    margin: auto;
+    background-color:#333;
+}
+
+.container4 {
+    width: 100%;
+    
+}
+
+#mainSec {
+    border: 10px;
+    border-color: white;
 }
 
 
 #header {
     color: white;
-    padding: 30px;
+    
     text-align: center;
     background-color: #333;
 }
@@ -41,37 +127,126 @@ h3 #link {
     margin: 0;
 }
 
+#profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
 #main {
     float: left;
-    width: 70%;
+    width: 65%;
     padding: 0 30px;
     box-sizing: border-box;
+    background-color: rgb(170,170,170);
+}
+
+#skills {
+    line-height: 35px;
+    color: black;
+    
+}
+
+#skills-Sec {
+    float: left;
 }
 
 
 li {
     padding: 10px;
     line-height: 22px;
+    position:relative;
 }
+
+.tooltip0 {
+    display: none;
+    position: absolute;
+    background-color: rgba(170,170,170, .6);
+    font-size: 0.8em;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    top: 0;
+    left: 75%;
+    z-index: 1;
+    width: 350px;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+li .tooltip0 {
+    font-weight:bold;
+}
+
+li:hover .tooltip0 {
+    display: block;
+}
+.tooltip1 {
+    display: none;
+    position: absolute;
+    background-color: rgba(170,170,170, .6);
+    font-size: 0.8em;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    top: 0;
+    right: 75%;
+    z-index: 1;
+    width: 300px;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+li .tooltip1 {
+    font-weight:bold;
+}
+li img {
+    width: 40px;
+    height: 30px;
+    padding: 10px 5px 2px 5px;
+    vertical-align: center;
+    margin-left: 15px;
+}
+
+#link-Desc {
+    color:rgb(65%, 33.3%, 0%);
+
+}
+
+li:hover .tooltip1 {
+    display: block;
+}
+
 
 #sidebar {
     float: right;
-    width: 30%;
+    width: 35%;
     background-color: rgb(65%, 33.3%, 0%);
     color: white;
     padding: 15px;
     box-sizing: border-box;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    
     right: 0px;
+    /*
     margin-bottom: -400px;
     padding-bottom: 400px;
-    
-
+    */
+}
+#accomplishments {
+    background-color: #333;
+    color:rgb(170,170,170);
+    text-align: center;
 
 }
 
 #education {
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
+    color: black;
 }
 
 section {
@@ -81,3 +256,16 @@ section {
 section p {
     line-height: 1.6;
 }
+
+#extras {
+    text-align: center;
+}
+
+#acc {
+    line-height: 25px;
+    font-size: 15px;
+} 
+
+
+
+
